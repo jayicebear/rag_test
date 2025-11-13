@@ -7,9 +7,9 @@
 > **임베딩 모델 + 검색 전략 + Reranking 유무** 비교
 
 ## 테스트셋 구성 (Structured Chunking)
-## embedding model </br>
+## Embedding model </br>
 `OpenAI-text-embedding-ada-002,OpenAI-text-embedding-3-large, Qwen3-embedding-0.6B, Qwen3-embedding-4B, all-MiniLM-L6-V2, google/embeddinggemma-0.3B`
-## reranking model </br>
+## Reranking model </br>
 `Qwen3-reranking-0.6B`
 ## Query rewriting methods </br>
 `query rewriting, query expansion, multi query`
