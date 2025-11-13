@@ -1,4 +1,4 @@
-# ChromaDB 기반 RAG 벤치마크
+# ChromaDB 기반 RAG benchmark test
 
 **실제 논문·뉴스·리포트·단편소설 등의 문서**를 `Docling → Structured Chunking` 후  
 **12,480개 고품질 QA 테스트셋** 생성 → **ChromaDB**에서 실험 진행
@@ -12,4 +12,6 @@
 ## Reranking model </br>
 `Qwen3-reranking-0.6B`
 ## Query rewriting methods </br>
-`Query rewriting, Query expansion, Multi query, Agentic search(majority vote, ensemble)`
+`Query rewriting, Query expansion, Multi query`
+## Search Methods
+`Vector score, BM25 score, Hybrid(Vector + BM25), Agentic query search (majority vote, ensemble)`
