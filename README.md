@@ -16,8 +16,8 @@
 ## Query rewriting methods </br>
 ```mermaid
 graph TD
-    A[4종 실전 문서\n- 논문: Seoul_Dasan.pdf\n- 논문: REMDoC.pdf\n- 뉴스 50건\n- 단편소설 30건\n- 기업 리포트 20건] --> B[Docling\nPDF → Markdown]
-    B --> C[Structured Chunking\nHeader + Table + List\n→ 400~600토큰 청크]
+    A[4종 실전 문서\n논문 2건\n뉴스 50건\n소설 30건\n리포트 22건] --> B[Docling\nPDF to Markdown]
+    B --> C[Structured Chunking\nHeader + Table + List\n400-600토큰 청크]
     C --> D[GPT-4o\n청크당 3개 질문 생성]
-    D --> E[총 12,480개 QA 페어\n{question, chunk, doc_type, page}]
+    D --> E[총 12480개 QA 페어\nquestion + answer_chunk\n+ doc_type + page]
     E --> F[ChromaDB\npersistent collection]
