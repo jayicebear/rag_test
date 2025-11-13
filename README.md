@@ -1,6 +1,6 @@
 # ChromaDB 기반 RAG 벤치마크
 
-**실제 논문·뉴스·리포트·단편소설등의 문서**를 `Docling → Structured Chunking` 후  
+**실제 논문·뉴스·리포트·단편소설 등의 문서**를 `Docling → Structured Chunking` 후  
 **12,480개 고품질 QA 테스트셋** 생성 → **ChromaDB**에서 실험 진행
 
 > **한국어 RAG 시스템 구축 전 돌려봐야 할 벤치마크**  
