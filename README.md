@@ -12,12 +12,4 @@
 ## Reranking model </br>
 `Qwen3-reranking-0.6B`
 ## Query rewriting methods </br>
-`query rewriting, query expansion, multi query`
-## Query rewriting methods </br>
-```mermaid
-graph TD
-    A[4종 실전 문서\n논문 2건\n뉴스 50건\n소설 30건\n리포트 22건] --> B[Docling\nPDF to Markdown]
-    B --> C[Structured Chunking\nHeader + Table + List\n400-600토큰 청크]
-    C --> D[GPT-4o\n청크당 3개 질문 생성]
-    D --> E[총 12480개 QA 페어\nquestion + answer_chunk\n+ doc_type + page]
-    E --> F[ChromaDB\npersistent collection]
+`Query rewriting, Query expansion, Multi query, Agentic search(majority vote, ensemble)`
