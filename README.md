@@ -12,6 +12,6 @@
 ## Reranking model </br>
 `Qwen3-reranking-0.6B`
 ## Query rewriting methods </br>
-`Query rewriting, Query expansion, Multi query`
+`Query rewriting, Query expansion, Multi query, Query to passage`
 ## Search Methods
 `Vector score, BM25 score, Hybrid(Vector + BM25), Agentic query search (majority vote, ensemble)`
